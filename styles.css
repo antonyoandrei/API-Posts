@@ -1,0 +1,42 @@
+.modal-dialog {
+    max-width: 800px;
+}
+
+.modal-content {
+    height: 70vh; 
+    overflow-y: auto; 
+}
+
+.comment {
+    border-bottom: 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(219, 219, 219, 0.699);
+}
+
+.card-body {
+    height: 220px;
+}
+
+.comment-name {
+    font-weight: bold;
+}
+
+.comment-email {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.comment-body {
+    font-size: 12px;
+}
+
+@media (max-width: 1200px){
+    .card-text {
+        font-size: 13px;
+    }
+
+    .card-title {
+        font-size: 15px;
+    }
+}
